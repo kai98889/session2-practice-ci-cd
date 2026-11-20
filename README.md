@@ -4,7 +4,7 @@
 
 ## 文件
 
-- `training_data.csv`：课程提供的 30 条训练数据。
+- `training_data.csv`：课程提供的 30 条训练数据，加 1 条用于验证自动更新的教学示例数据（11 年、126000）。
 - `train_model.py`：训练并生成 `linear_model.txt` 和 `linear_model.pkl`。
 - `requirements.txt`：Python 依赖。
 - `test_train_model.py`：验证训练结果、模型导出和错误数据处理。
